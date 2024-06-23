@@ -1,0 +1,91 @@
+{
+    "intents":[
+      {
+        "tag": "greeting",
+        "patterns":[
+            "Hi",
+            "Hey",
+            "loha",
+            "Good Day",
+            "Hello"
+        ],
+        "responses":[
+            "hey",
+            "Hello, what can i do for you?",
+            "Hi there, how can i help?"
+        ]
+    },
+    {
+        "tag": "goodbye",
+        "patterns":[
+            "Bye",
+            "see you later",
+            "goodbye"
+        ],
+        "responses":[
+            "See you later, thanks for visiting",
+            "Bye, have a nice day",
+            "Bye! come back again soon."
+        ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["how can i call you?", "what should i call you?", "what is your name?", "do you have any names?"],
+      "responses": ["My name is Zeta, and i'm personal bot who can help you with your needs about our", "You can call me zeta, i'm professional bot for solving your demand regarding communication for knowledge"]
+    },
+    {
+      "tag": "program",
+      "patterns": [
+        "What kind program are you?",
+        "What are you?",
+        "What do you do?"
+      ],
+      "responses": [
+        "We are project based learning from what we supposed to do, it means we are learning our self with knowledge that have been put inside then what we trained",
+        "We are self learned chatbot that will help you learning some english sentenses, and maybe you cen help me too :D"
+      ]
+    },
+    {
+      "tag": "donation",
+      "patterns": [
+        "Do you take donation?",
+        "Do you accept donate?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "well if you wanna donate me, then thank you, we are gratefull for that. We accept VISA, Mastercard and Paypal",
+        "well if you wanna donate me, then thank you for that, We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "what you do",
+      "patterns": [
+        "what would yo do?",
+        "can you make detail about what you do?",
+        "what are you in this program?"
+      ],
+      "responses": [
+        "More detailed we are chatbot for learning english that has been create by our owner to give you example about what you wanna learn.",
+        "well, we are bot which can help you learned more enlish bases on IELS and TOEFL, i hope :D"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+    ]
+}

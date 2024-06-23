@@ -1,0 +1,143 @@
+{
+    "intents":[
+      {
+        "tag": "sapaan",
+        "patterns":[
+            "Hi",
+            "Hey",
+            "halo",
+            "selamat pagi",
+            "selamat siang",
+            "selamat sore",
+            "selamat malam",
+            "Hello"            
+        ],
+        "responses":[
+            "Selamat datang di layanan bantuan kanzoo interior, apakah ada yang bisa saya bantu?",
+            "Halo, selamat datang di layanan bantuan kanzoo interior, apakah terdapat hal sesuatu yang bisa saya bantu?",
+            "Selamat datang, terima kasih telah menghubungi layanan bantuan kanzoo interior, apakah ada yang bisa saya bantu?"
+        ]
+    },
+    {
+        "tag": "perpisahan",
+        "patterns":[
+            "selamat tinggal",
+            "sekian",
+            "semoga kita dapat bertemu kembali"
+        ],
+        "responses":[
+            "Terima kasih dan selamat tinggal, terima kasih atas menggunakan layanan kanzoo interior",
+            "Selamat tinggal, terima kasih telah menggunakan layanan kanzoo interior",
+            "Selamat Tinggal, terima kasih atas penggunaan layanan kanzoo interior"
+        ]
+    },
+    {
+      "tag": "terima kasih",
+      "patterns": ["Thanks", "Thank you", "terima kasih", "Terima kasih banyak"],
+      "responses": ["Terima kasih kembali"]
+    },
+    {
+      "tag": "nama",
+      "patterns": ["siapakah anda?", "anda siapa?", "nama anda siapa?", "apakah anda memiliki nama?"],
+      "responses": ["nama saya adalah Zeta,layanan bantuan kanzoo interior yang dimana menyediakan informasi kepada anda terkait dengan kanzoo interior"]
+    },
+    {
+      "tag": "program",
+      "patterns": [
+        "program apakah anda?",
+        "anda itu apa program atau orang?"
+      ],
+      "responses": [
+        "saya program otomatis yang telah didesain dan dilatih berdasarkan pertanyaan mengenai kanzoo interior untuk dapat memberikan anda informasi mengenai perusahaan kanzoo interior"
+      ]
+    },
+    {
+      "tag": "pembayaran",
+      "patterns": [
+        "bagaimana sistem pembayaran dalam menggunakan jasa kanzoo interior?",
+        "termin apa saja yang terdapat di pembayaran?",
+        "adakah pembayaran tertentu yang harus saya lakukan?"     
+      ],
+      "responses": [
+        "Dalam pembayaran kami memiliki termin di dalam kontrak, terdapat 4 tahapan pembayaran yang harus dilakukan, DP sebesar 40 % dari proyek, kemudian pelunasan 1 sebesar 20%, pelunasan 2 sebesar 20%, yang terakhir adalah pelunasan akhir. Dalam pembayaran DP sudah termasuk desain dan survey didalamnya. Kemudian jika selesai pembayaran kami akan melakukan survey terakhir finishing dan akan dilakukan serah terima"
+      ]
+    },
+    {
+      "tag": "kanzoo interior",
+      "patterns": [
+        "apa itu kanzoo interior?",
+        "siapa kanzoo interior?",
+        "hal apa kanzoo interior berikan?",
+        "perusahaan kanzoo interior itu apa?",
+        "layanan apa yang diberikan kanzoo interior"
+      ],
+      "responses": [
+        "kanzoo interior bergerak dalam bidang konsultan desain interior sejak 2013,kami menyajikan jasa perancangan interior desain dan custom furniture  untuk rumah, apartemen, cafe dan kantor mulai dari ruang kerja, ruang meeting, ruang tamu, ruang keluarga, kamar tidur, ruang makan hingga dapur."
+      ]
+    },
+    {
+      "tag": "kelebihan",
+      "patterns": [
+        "apa kelebihan kanzoo interior?",
+        "apa yang membedakan kanzoo interior dengan perusahaan lain?",
+        "kekurangan kanzoo interior apa?"
+      ],
+      "responses": [
+        "Dalam pengerjaan kita bersih dan tidak meninggalkan sampah dan setiap pengerjaan kami selalu mengecheck terhadap pengerjaan dan memberikan laporan pada saat itu juga kepada para pelanggan dan kami memberikan garansi minor terhadap pengerjaan proyek. Dan bahan material yang kami berikan adalah kualitas terbaik, teruntuk kayu kami memiliki teknik dalam penangkal rayap dan anti jamur"
+      ]
+    },
+    {
+      "tag": "waktu pengerjaan",
+      "patterns": [
+        "berapa lama waktu pengerjaan dalam renovasi?",
+        "jika terdapat keterlambatan maka kapan penyelesaian tercepat?",
+        "berapa lama renovasi akan dikerjakan?"
+      ],
+      "responses": [
+        "Dalam waktu pengerjaan memliki rentang waktu masing masing 30 - 60 hari kerja, dalam pengerjaan proyek kami memprioritaskan 30 - 60 hari kerja tanpa terlambat, dan pengerjaan akan dilakukan sesuai dengan jadwal kontrak walaupun sudah terbayar lunas semua biaya"
+      ]
+    },
+    {
+      "tag": "Harga Layanan",
+      "patterns": [
+        "berapakah harga layanan desain dan survey jika permitaan diterima?",
+        "berapa yang harus saya bayar untuk jasa desain dan survey?"
+      ],
+      "responses": [
+        "Dalam permintaan jasa sesuai dengan permintaan pelanggan berdasarkan tingkat kesulitan, untuk kesulitan yang sesuai dengan rekomendasi harga yang dibayarkan sebesar Rp.2.000.000,00 atau 2 juta Rupiah, jika tingkat kesulitan didapatkan pada sulit maka maksimal pembayaran hanya Rp.3.000.000,00 untuk jasa Desain dan Survey, tetapi pembayaran dilakukan jika telah menandatangani kontak perjanjian"
+      ]
+    },
+    {
+      "tag": "rekomendasi survey",
+      "patterns": [
+        "contoh desain yang diberikan sebagai rekomendasi renovasi?",
+        "adakah contoh desain yang bisa menjadi rekomendasi?",
+        "saya tidak mempunyai ide desain, apakah terdapat rekomendasi?"
+      ],
+      "responses": [
+        "Dalam bentuk rekomendasi yang dapat kami berikan adalah pendekatan berdasarkan project yang telah kami kerjakan sebagai gambaran dalam bentuk desain dan penerapan sebuah furniture dalam desain",
+        "terdapat contoh desain dari pendekatan berdasarkan penyelesaian proyek sebelumnya, dalam hal ini bentuk rekomendasi mulai dari desain, penggunaan warna, dan furniture kemudian akan desesuaikan dengan per request dalam permintaan jasa."
+      ]
+    },
+    {
+      "tag": "layanan gratis",
+      "patterns": [
+        "apakah Jasa yang diberikan desain dan survey dikenakan biaya atau gratis?",
+        "layanan apa saja yang gratis?"
+      ],
+      "responses": [
+        "Kanzoo Interior memberikan layanan gratis untuk tahapan pertama dalam permintaan jasa, kami memberikan free desain dan survey lokasi untuk tahap pertama jika pelanggan menyetujui desain, maka akan dilanjutkan dengan pembuatan kontrak jasa dan dilakukan pembayaran DP, Apabila jika tidak maka akan gratis tidak dipungut biaya dan desain dibatalkan tidak diberikan."
+      ]
+    },
+    {
+      "tag": "layanan tersedia",
+      "patterns": [
+        "layanan apa yang tersedia di kanzoo interior?",
+        "tersedia layanan apa saja yang ada di kanzoo interior?"
+      ],
+      "responses": [
+        "Layanan yang tersedia di kanzoo interior adalah yang utama desain interior, kemudian kami melakukan desain dan survey terhadap permintaan yang diinginkan pelanggan, dengan memberikan sebuah rekomendasi yang telah kami buat dan detailing yang dapat kami berikan terhadap rekomendasi"
+        ]
+    }
+    ]
+}
