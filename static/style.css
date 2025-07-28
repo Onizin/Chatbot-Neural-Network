@@ -24,7 +24,7 @@ body {
 .chatbox {
   position: absolute;
   bottom: 30px;
-  right: 30px;
+  left: 30px;
 }
 
 /* CONTENT IS CLOSE */
@@ -49,7 +49,7 @@ body {
 
 /* BUTTON */
 .chatbox__button {
-  text-align: right;
+  text-align: left;
 }
 
 .send__button {
